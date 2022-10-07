@@ -4,6 +4,7 @@
   flex-direction: column;
   gap: 5vw;
   align-items: center;
+  margin-bottom: 5vh;
 }
 
 .label {
@@ -15,6 +16,7 @@
 .label .textarea {
   display: block;
   width: 90vw;
+  font-family: var(--ff-primary);
 }
 
 .button--submit {
