@@ -1,0 +1,32 @@
+.form {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5vw;
+  align-items: center;
+}
+
+.label {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-500);
+  font-weight: bold;
+}
+
+.label .textarea {
+  display: block;
+  width: 90vw;
+}
+
+.button--submit {
+  background: var(--white);
+  color: var(--black);
+  font-size: var(--fs-400);
+  font-family: var(--ff-primary);
+  border-radius: 15%;
+}
+
+.button--submit:hover {
+  cursor: pointer;
+  background: var(--secondary-light);
+  color: var(--black);
+}
