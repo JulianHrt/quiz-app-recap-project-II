@@ -7,6 +7,7 @@
     <title>Quiz-App</title>
     <link rel="stylesheet" href="./styles.css" />
     <script src="./form.js" defer></script>
+    <script src="./leftcharacters.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -21,8 +22,13 @@
             id="question"
             name="question"
             data-js="question"
+            maxlength="150"
           ></textarea>
+          <p data-js="output--styleOne" class="output">
+            <output data-js="outputOne"></output> Left Characters
+          </p>
         </label>
+
         <label class="label" for="answer"
           >Your answer:
           <textarea
@@ -30,7 +36,11 @@
             id="answer"
             name="answer"
             data-js="answer"
+            maxlength="150"
           ></textarea>
+          <p class="output" data-js="output--styleTwo">
+            <output data-js="outputTwo"></output> Left Characters
+          </p>
         </label>
         <label class="label" for="tag"
           >Tag:
