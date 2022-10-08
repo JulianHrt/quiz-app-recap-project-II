@@ -52,3 +52,7 @@
   border-radius: 4px;
   padding: 0 5px;
 }
+
+.card--gap {
+  margin: 5vh;
+}

@@ -16,7 +16,7 @@ form.addEventListener("submit", (event) => {
   const tag = inputData.tag;
   const question = document.createElement("li");
 
-  question.innerHTML = `<article class="card">
+  question.innerHTML = `<article class="card card--gap">
   <h2 class="card__question">
     ${headline}
   </h2>
