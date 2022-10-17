@@ -32,3 +32,22 @@
   background: var(--secondary-light);
   color: var(--black);
 }
+
+.output {
+  font-weight: lighter;
+  font-size: var(--fs-300);
+  font-family: var(--ff-primary);
+  text-align: right;
+}
+
+.green {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.red {
+  color: red;
+}
